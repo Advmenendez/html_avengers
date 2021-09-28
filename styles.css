@@ -31,6 +31,5 @@ nav a :nth-child(2)-child::before {
 
 .links ul {
     display: flex;
-    flex-wrap: ;
 }
 
