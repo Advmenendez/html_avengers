@@ -1,0 +1,36 @@
+body {
+ margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    background-color: red;
+}
+
+nav a {
+    text-decoration: none;
+    color: black
+}
+
+nav a :first-child::before {
+    content: "";
+}
+nav a :last-child::before {
+    content: "";
+}
+nav a :nth-child(2)-child::before {
+    content: "";
+}
+
+.hero {
+    display: flex;
+    flex-direction: column ;
+}
+
+.links ul {
+    display: flex;
+    flex-wrap: ;
+}
+
